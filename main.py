@@ -32,7 +32,7 @@ while attempts > 0:
         continue
     letters.append(letter)
 
-    if not letters[-1] in word:
+    if not letters[-1] in   word:
         attempts -= 1
 
 print(f"К сожалению ты не отгадал слово - {word}")
